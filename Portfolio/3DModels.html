@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8" />
+		<title>John Milligan</title>
+		<meta name="viewport" content="width=device-width, minimumscale=1.0, maximum-scale=1.0" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+
+window.onload = init;
+
+function init(){
+
+
+	$('.myInfo').slideToggle(500);
+	document.querySelector('#charTitle').onclick = charSlideDown;
+	document.querySelector('#PirateShipTitle').onclick = shipSlideDown;
+	document.querySelector('#roboTitle').onclick = roboSlideDown;
+	document.querySelector('#chessTitle').onclick = chessSlideDown;
+	document.querySelector('#dinningTitle').onclick = dinningSlideDown;
+	 $('#load').slideToggle(0); 
+}
+
+function charSlideDown(e){
+	 $('#charImages').slideToggle(500);
+}
+function shipSlideDown(e){
+	 $('#boatImages').slideToggle(500);
+}
+function roboSlideDown(e){
+	 $('#roboImages').slideToggle(500);
+}
+function chessSlideDown(e){
+	 $('#chessImages').slideToggle(500);
+}
+function dinningSlideDown(e){
+	 $('#dinningImages').slideToggle(500);
+}
+</script>
+	</head>
+	
+	<body>
+		<div class="wrapper">
+		
+		<!-- Header -->
+			<header>
+				<h1 id="JohnTitle">JOHN MILLIGAN</h1>
+				<h1 id="GameDesAin">Game Designer & Animator</h1>
+				
+				<nav>
+					<ul>						
+						<li><a href="index.html">home</a></li>
+						<li><a href="Projects.html">projects</a></li>
+						<li><a href="Animations.html">animations</a></li>
+						<li><a href="3DModels.html" class="current">3d models</a></li>
+						<li><a href="Resume.html">resume</a></li>
+						<li><a href="AboutMe.html">about me</a></li>
+					</ul>
+				</nav>
+			
+			</header>
+			
+	<!--Section -->	
+			<div id="load">
+					<h4>Loading...</h4>
+			</div>
+			<section class="myInfo" style="display: none;">
+				
+				<div class="topLayerDiv">
+					<br/>
+					<br/>
+					<div id="PirateShipTitle">
+						<h3>Pirate Ship</h3>	
+					</div>
+				</div>
+				
+				<div class="bottomLayer">
+					
+					<div id="boatImages" style="display: none;">
+						</br>
+						<img src="Images/shipAction.jpg"/>
+						<img src="Images/pirateShipBoth.jpg"/>
+						<img src="Images/shipsBothWire.jpg"/>
+						<img src="Images/overallShot.jpg"/>
+						<img src="Images/cannon.jpg"/>
+						</br></br>
+					</div>
+				</div>
+				
+				<div class="middleLayer">
+					<br/>
+					<br/>
+					<div id="charTitle">
+					<h3>Character - In Game Model</h3>
+					</div>
+				</div>
+				
+				<div class="bottomLayer">
+					<div id="charImages" style="display: none;">
+					</br>
+					<img src="Images/CharacterSingle.jpg"/>
+					<img src="Images/Character.jpg"/>
+					</br></br>
+					</div>
+				</div>
+				
+				<div class="middleLayer">
+					<br/>
+					<br/>
+					<div id="roboTitle">
+					<h3>Robo-Knight</h3>
+					</div>
+				</div>
+				
+				<div class="bottomLayer">
+					<div id="roboImages" style="display: none;">
+					</br>
+					<img src="Images/robo.jpg"/>
+					</br></br>
+					</div>
+				</div>
+				
+				<div class="middleLayer">
+					<br/>
+					<br/>
+					<div id="chessTitle">
+					<h3>Chess Board</h3>
+					</div>
+				</div>
+				
+				<div class="bottomLayer">
+					<div id="chessImages" style="display: none;">
+					</br>
+					<img src="Images/chessBoard.jpg"/>
+					</br></br>
+					</div>
+				</div>
+				
+				<div class="middleLayer">
+					<br/>
+					<br/>
+					<div id="dinningTitle">
+					<h3>Dinning Room</h3>
+					</div>
+				</div>
+				
+				<div class="bottomLayer">
+					<div id="dinningImages" style="display: none;">
+					</br>
+					<img src="Images/dinningRoom.jpg"/>
+					</br></br>
+					</div>
+				</div>
+				
+				
+			</section>
+			
+	<!-- Footer -->		
+			<footer>	
+				<div><strong>College:</strong> <em>Rochester Institute of Technology</em> &nbsp;&nbsp;&nbsp; <strong>Major:</strong> <em>Game Design and Development</em>&nbsp;&nbsp;&nbsp;<strong>Email:</strong> <em>jmm7115@rit.edu</em> </div>
+			</footer>
+		
+		</div>
+	</body>
+
+</html>

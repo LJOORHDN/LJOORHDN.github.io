@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8" />
+		<title>John Milligan</title>
+		<meta name="viewport" content="width=device-width, minimumscale=1.0, maximum-scale=1.0" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+
+		window.onload = init;
+
+		function init(){
+
+			$('.myInfo').slideToggle(500);
+			
+			document.querySelector('#dballTitle').onclick = dballSlideDown;
+			document.querySelector('#kinectTitle').onclick = kinectSlideDown;
+			document.querySelector('#spaceTitle').onclick = spaceSlideDown;
+			document.querySelector('#onlyTitle').onclick = onlySlideDown;
+			document.querySelector('#G1Title').onclick = G1SlideDown;
+			$('#load').slideToggle(0);
+		}
+
+		function dballSlideDown(e){
+			$('#dballDiv').slideToggle(500);
+		}
+		function kinectSlideDown(e){
+			$('#kinectDiv').slideToggle(500);
+		}
+		function spaceSlideDown(e){
+			$('#spaceDiv').slideToggle(500);
+		}
+		function onlySlideDown(e){
+			$('#onlyDiv').slideToggle(500);
+		}
+		function G1SlideDown(e){
+			$('#G1Div').slideToggle(500);
+		}
+		
+	</script>
+	</head>
+	
+	<body>
+		<div class="wrapper">
+		
+		<!-- Header -->
+			<header>
+				<h1 id="JohnTitle">JOHN MILLIGAN</h1>
+				<h1 id="GameDesAin">Game Designer & Animator</h1>
+				
+				<nav>
+					<ul>						
+						<li><a href="index.html">home</a></li>
+						<li><a href="Projects.html" class="current">projects</a></li>
+						<li><a href="Animations.html">animations</a></li>
+						<li><a href="3DModels.html">3d models</a></li>
+						<li><a href="Resume.html">resume</a></li>
+						<li><a href="AboutMe.html">about me</a></li>
+					</ul>
+				</nav>
+			
+			</header>
+			
+	<!--Section -->		
+			<div id="load">
+					<h4>Loading...</h4>
+			</div>
+			<section class="myInfo" style="display: none;">
+				
+				<div class="middleLayer">
+					<div id="dballTitle">
+					</br>
+					</br>
+					<h3>Xtreme Dodgeball</h3>
+					</div>
+				</div>
+				
+				<div class="bottomLayer">
+					<div id="dballDiv" style="display: none; height:410px; padding-left: 4%; padding-right: 4%">
+						<br/>
+						<a target="_blank" href="Images/dballLarge.jpg"><img src="Images/dballSquare.jpg" style="float:left; padding-right:20px"/></a>
+						<span style="line-height:10%;">
+						<p style="float: left;font-size:22px;  ;line-height"><strong>Language:</strong> Swift</p> <p style="float: right;font-size:22px;  "><strong>Platform:</strong> iPhone App</p>
+						<p style="float: left;font-size:22px;  "><strong>Year:</strong> 2015</p> <p style="float: right;font-size:22px;  "><strong>Solo Project</strong></p>
+						</span>
+						<p style="width:52%; float: left; font-size:22px;">A dodgeball game for the iPhone, Xtreme Dodgeball brings
+						the thrilling sport of dodgeball to mobile devices.
+						As you dodge incoming balls and sprint towards one
+						that you can throw back. The player controls their 
+						character by tilting their phone around and bending their
+						throw by swiping the screen.</p>
+					</div>
+				</div>
+				
+				<div class="middleLayer">
+					<br/>
+					<br/>
+					<div id="kinectTitle">
+					<h3>Kinect Air Guitar Game</h3>
+					</div>
+				</div>
+				
+				<div class="bottomLayer">
+					<div id="kinectDiv" style="display: none; height:425px; padding-left: 4%; padding-right: 4%">
+						<br/>
+						<a target="_blank" href="Images/guitarGameBig.jpg"><img src="Images/guitarGameSquare.jpg" style="float:left; padding-right:20px;padding-top:30px"/></a>
+						<span style="line-height:10%;">
+						<p style="float: left;font-size:22px;  "><strong>Language:</strong> C# &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;</p> <p style="float: right;font-size:22px;  ;"><strong>Platform:</strong> Unity</p>
+						<p style="float: left;font-size:22px;   "><strong>Year:</strong> 2015</p><p style="float: right;font-size:22px;  "><strong>Solo Project</strong></p>
+						</span>
+						<p style="width:52%; float: left; font-size:22px;  ;">
+							Tune up those air guitars for this game because Kinect Air Guitar gives the opportunity 
+							to Rock 'N Roll. With the Microsoft Xbox Kinect this game brings the stage to you.
+							By using your body one can strum the air to play their very own air guitar. By
+							matching the symbols at the correct time, players compete to be the best air guitarist
+							out there.
+						</p>
+					</div>
+				</div>
+				
+				<div class="middleLayer">
+					<br/>
+					<br/>
+					<div id="spaceTitle">
+					<h3>Space Elements</h3>
+					</div>
+				</div>
+				
+				<div class="bottomLayer">
+					<div id="spaceDiv" style="display: none; height:385px; padding-left: 4%; padding-right: 4%">
+						<br/>
+						<a target="_blank" href="Images/boss.jpg"><img src="Images/bossSquare.jpg" style="float:left; padding-right:20px;padding-top:40px"/></a>
+						<span style="line-height:10%;">
+						<p style="float: left;font-size:22px;  "><strong>Language:</strong> Javascript</p> <p style="float: right;font-size:22px;  ;"><strong>Platform:</strong> Canvas</p>
+						<p style="float: left;font-size:22px;  "><strong>Year:</strong> 2014</p><p style="float: right;font-size:22px;  "><strong>Group Project</strong></p>
+						</span>
+						<p style="width:52%; float: left; font-size:22px;  ">
+							A remix of Space Invaders, Space Elements brings a new challenge to fighting invaders.
+							As an endless wave of invaders attack, the player utilizes their arsenal of weapons to combat the diverse enemy fighters.
+							I worked on the tutorial and half of the enemy fighters actions. 
+						</p>
+						</div>
+				</div>
+				
+				<div class="middleLayer">
+					<br/>
+					<br/>
+					<div id="onlyTitle">
+					<h3>Only Human</h3>
+					</div>
+				</div>
+				
+				<div class="bottomLayer">
+					
+						<div id="onlyDiv" style="display: none; height:585px; padding-left: 4%; padding-right: 4%">
+						<br/>
+						<a target="_blank" href="Images/card.png"><img src="Images/cardSmall.jpg" style="float:left; padding-right:20px; padding-top:35px"/></a>
+						<span style="line-height:10%;">
+						<p style="float: left;font-size:22px;  "><strong>Card Game &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</strong></p> <p style="float: right;font-size:22px;  ;"><strong>Players:</strong> 2-8</p>
+						<p style="float: left;font-size:22px;  "><strong>Year:</strong> 2013</p><p style="float: right;font-size:22px;  "><strong>Group Project</strong></p>
+						</span>
+						<p style="width:52%; float: left; font-size:22px;  ">
+							In the distant future, the last remnants of humanity have been forced to flee the Earth as the planet has been destroyed. As the commander of one of the last remaining faction fleets, the future of the human race lies in your hands. 
+							As you manage your resources and build your fleet up while other factions are doing the same. While building trust with other commanders, remember to watch your back since others will do what it takes to survive.
+							As the lead designer my job was to create the ships while balancing their attributes such as attack, health, building cost, and upgrade costs.
+						</p>
+					
+					</div>
+				</div>
+				
+				<div class="middleLayer">
+					<br/>
+					<br/>
+					<div id="G1Title">
+					<h3>G1</h3>
+					</div>
+				</div>
+				
+				<div class="bottomLayer">
+					
+						<div id="G1Div" style="display: none; height:385px; padding-left: 4%; padding-right: 4%">
+						<br/>
+						<a target="_blank" href="Images/G1.jpg"><img src="Images/G1Square.jpg" style="float:left; padding-right:20px"/></a>
+						<span style="line-height:10%;">
+						<p style="float: left;font-size:22px;  "><strong>Language:</strong> C# &nbsp;&nbsp;</p> <p style="float: right;font-size:22px;  ;"><strong>Platform:</strong> Windows</p>
+						<p style="float: left;font-size:22px;  "><strong>Year:</strong> 2013</p><p style="float: right;font-size:22px;  "><strong>Group Project</strong></p>
+						</span>
+						<p style="width:52%; float: left; font-size:22px;  ">
+							G1 is a two way tower defence where players balance their supplies to strengthen their defensive towers and offensive units that they send to their opponent. 
+							Not only was I the lead designer of the game, I also coded most of the towers, minions, and supplies.
+							
+						</p>
+					
+					</div>
+				</div>
+				<!-- last -->
+				
+			</section>
+			
+	<!-- Footer -->		
+			<footer>	
+				<div><strong>College:</strong> <em>Rochester Institute of Technology</em> &nbsp;&nbsp;&nbsp; <strong>Major:</strong> <em>Game Design and Development</em>&nbsp;&nbsp;&nbsp;<strong>Email:</strong> <em>jmm7115@rit.edu</em> </div>
+			</footer>
+		
+		</div>
+	</body>
+
+</html>

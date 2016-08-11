@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8" />
+		<title>John Milligan</title>
+		<meta name="viewport" content="width=device-width, minimumscale=1.0, maximum-scale=1.0" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+
+		window.onload = init;
+
+		function init(){
+			$('.JMMResume').slideToggle(0);
+			$('.JMMResume').slideToggle(500);
+			$('#load').slideToggle(0);
+		}
+
+	</script>
+	</head>
+	
+	<body>
+		<div class="wrapper">
+		
+		<!-- Header -->
+			<header>
+				<h1 id="JohnTitle">JOHN MILLIGAN</h1>
+				<h1 id="GameDesAin">Game Designer & Animator</h1>
+				
+				<nav>
+					<ul>						
+						<li><a href="index.html">home</a></li>
+						<li><a href="Projects.html">projects</a></li>
+						<li><a href="Animations.html">animations</a></li>
+						<li><a href="3DModels.html">3d models</a></li>
+						<li><a href="Resume.html" class="current">resume</a></li>
+						<li><a href="AboutMe.html">about me</a></li>
+					</ul>
+				</nav>
+			
+			</header>
+			
+	<!--Section -->	
+			<div id="load">
+					<h4>Loading...</h4>
+			</div>
+			<section class="myInfo">
+				
+				<div class="topLayerDiv">
+						
+				</div>
+				
+				<div class="bottomLayer">
+					<div>
+					</br>
+						<a href="JohnMMilliganResume.pdf" target="_blank" style="color:#378fc8;padding-top:30px;">PDF File</a></br><br/>
+					</div>
+					<div class="JMMResume">
+						<object data="JohnMMilliganResume.pdf" type="application/pdf" width="90%" height="1025px">
+							<embed src="JohnMMilliganResume.pdf" type="application/pdf" />
+						</object>
+					</div>
+					<br/>
+					<br/>
+					<div>
+						<a href="JohnMilliganBusinessCard4.png" target="_blank" style="color:#378fc8;">Business Card</a><br/>
+					</div>
+					<br/>
+					<img src="JohnMilliganBusinessCard4.png" width="700px" height="400px"></img>
+					</br></br>
+				</div>
+				
+				<div class="bottomLayerDiv">
+						
+				</div>
+			</section>
+			
+	<!-- Footer -->		
+			<footer>	
+				<div><strong>College:</strong> <em>Rochester Institute of Technology</em> &nbsp;&nbsp;&nbsp; <strong>Major:</strong> <em>Game Design and Development</em>&nbsp;&nbsp;&nbsp;<strong>Email:</strong> <em>jmm7115@rit.edu</em> </div>
+			</footer>
+		
+		</div>
+	</body>
+
+</html>
