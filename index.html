@@ -6,17 +6,8 @@
 		<meta charset="utf-8" />
 		<title>John Milligan</title>
 		<meta name="viewport" content="width=device-width, minimumscale=1.0, maximum-scale=1.0" />
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<!--	<script>
+		
 
-		window.onload = init;
-
-		function init(){
-			$('.bottomLayerHome').slideToggle(0);
-			$('.bottomLayerHome').slideToggle(500);
-		}
-
-	</script> -->
 	</head>
 	
 	<body>
@@ -24,51 +15,189 @@
 		
 		<!-- Header -->
 			<header>
-				<h1 id="JohnTitleHome">JOHN MILLIGAN</h1>
-				<h1 id="GameDesAinHome">Game Designer & Animator</h1>
+				<h1 id="JohnTitle">JOHN MILLIGAN</h1>
+				<h1 id="GameDesAin">Game Designer & Animator</h1>
+				
+				<nav>
+					<ul>	
+						<li><a href="Animations.html" class="current">animations</a></li>
+						<li><a href="Projects.html">projects</a></li>
+						<li><a href="Resume.html">resume</a></li>
+						<li><a href="AboutMe.html">about me</a></li>
+					</ul>
+				</nav>
+			
 			</header>
 			
-	<!--Section -->		
-			<section class="myInfo">
+	<!--Section 		
+			<div id="load">
+					<h4 style="padding-top:20px">Loading...</h4>
+			</div>
+			-->
+			<section class="myInfo" >
+	
 				
+				<!--Animation -->
 				<div class="topLayerDiv">
-						
-				</div>
-				
-				<div class="bottomLayerHome">
-					</br></br>
-					<div id="topImages">
-					
-						<!--<img src="Images/placeholder.jpg"/> -->
-						
-						
-						<a href="Projects.html"><div id="projectMove">
-							<p style=" padding-left: 40px; padding-top:40px;">PROJECTS</p>
-						</div></a>
-						
-						<a href="3DModels.html"><div id="DMove">
-							<p style=" padding-left: 40px; padding-top:40px;">3D MODELS</p>
-						</div></a>
-						
-						<a href="Animations.html"><div id="animationMove" >
-							<p style=" padding-left: 280px; padding-top:40px;">ANIMATIONS</p>
-						</div></a>
-						
-						<a href="Resume.html"><div id="resumeMove" >
-							<p style=" padding-right: 40px; padding-top:40px; float:right;">RESUME</p>
-						</div></a>
-						
-						<a href="AboutMe.html"><div id="aboutMove">
-							<p style=" padding-right: 40px; padding-top:40px; float: right;">ABOUT ME</p>
-						</div></a>
-						
-						
+					<div id="charTitle">
+					</br>
+					</br>
+					<h3>Animation</h3>
 					</div>
 				</div>
+				
+				<div class="bottomLayer">
+					<div id="DemoReel" >
+					</br>
+					<iframe width="560" height="420" src="https://www.youtube.com/embed/XXUPKjNTMAc" frameborder="0" allowfullscreen></iframe>
+					</br></br>
+					</div>
+				</div>
+				
+				
+				<div class="middleLayer">
+					<br/>
+					<br/>
+					<div id="kinectTitle">
+					<h3>Game Design Projects</h3>
+					</div>
+				</div>
+				
+				<div>
 					
-				<div class="bottomLayerDiv">
+					
+				
+				<div class="bottomLayer">
+					<div id="kinectDiv" style=" height:425px; padding-left: 4%; padding-right: 4%">
+						<br/>
+						
+						<h3 style="color:#378fc8; float: left; clear: both;">Kinect Air Guitar:</h3></br>
+					
+						<img src="Images/guitarGameSquare.jpg" style="clear: both; float:left; padding-right:20px;"/>
+						</br></br>
+						<p style="width:52%; float: left; font-size:22px;  ;">
+							This prototype game played off the fun idea of playing an air guitar. 
+							Using the Microsoft Kinect device and Unity’s engine, I coded a music rhythm game where you can rock out with an air guitar. 
+							The game tracks the player’s body and overlays it with a guitar on screen. 
+							Players strum using their hands on the guitar, matching the color coordinated numbers or rocking out in freestyle.  
+						</p>
+					</div>
+				</div>
+				
+				<div class="middleLayer" style="height: 40px;">
 					
 				</div>
+				
+				<div class="bottomLayer">
+					<div id="dballDiv" style=" height:410px; padding-left: 4%; padding-right: 4%">
+						<br/>
+						
+						<h3 style="color:#378fc8; float: left; clear: both;">Xtreme Dodgeball:</h3></br>
+						
+						<img src="Images/dballSquare.jpg" style="float:left; padding-right:20px; clear:both;"/>
+						</br></br>
+						<p style="width:52%; float: left; font-size:22px;">
+							Using their iPhones, players compete against waves of dodgeball teams in Xtreme Dodgeball. 
+							Using the iPhone’s gyroscope players tilt their phones to dodge incoming balls thrown by the opposing team. 
+							After picking up a ball they can swipe at their screen to throw the ball across the court. 
+							I coded the entire game including player control, enemy AI, and dodgeball physics using Apple’s programming language Swift.
+						</p>
+					</div>
+					</br>
+				</div>
+				
+				
+				
+				
+				
+				<div class="middleLayer" style="height: 40px;">
+				
+				</div>
+				
+				<div class="bottomLayer">
+					
+						<div id="onlyDiv" style=" height:585px; padding-left: 4%; padding-right: 4%">
+						<br/>
+						<h3 style="color:#378fc8; float: left; clear: both;">Only Human</h3></br>
+						<img src="Images/cardSmall.jpg" style="float:left; padding-right:20px; clear:both;"/>
+						</br></br></br>
+						<p style="width:52%; float: left; font-size:22px;  ">
+							In the distant future, the last remnants of humanity have been forced to flee the Earth as the planet has been destroyed. 
+							As the commander of one of the last remaining faction fleets, the future of the human race lies in your hands. 
+							Manage your resources and build your fleet up to protect yourself from other factions who are doing the same. 
+							While building trust with other commanders, remember to watch your back since others will do what it takes to survive.
+							As the lead game designer of this card game, my job was to create and balance every ship which are the main focus of the game. 
+						</p>
+					
+					</div>
+				</div>
+				
+				
+				
+				
+				<!--Resume -->
+				<div class="topLayerDiv">
+					</br></br>
+					<div id="onlyTitle">
+					<h3>Resume</h3>
+					</div>
+				</div>
+				
+				<div class="bottomLayer">
+					<div>
+					
+					</br>
+						<a href="JohnMMilliganResume.pdf" target="_blank" style="color:#378fc8;padding-top:30px;">PDF File</a></br><br/>
+					</div>
+					<div class="JMMResume">
+						<object data="JohnMMilliganResume.pdf" type="application/pdf" width="90%" height="1025px">
+							<embed src="JohnMMilliganResume.pdf" type="application/pdf" />
+						</object>
+					</div>
+					
+				</div>
+				
+			
+				
+				
+				
+				
+				<!--About Me -->
+				<div class="topLayerDiv">
+					</br></br>
+					<div id="onlyTitle">
+					<h3>About Me</h3>
+					</div>	
+				</div>
+				
+				<div class="bottomLayer" style="height:390px;">
+					</br>
+					<img style="float:left; margin-left:3%; margin-right:20px;padding-top:15px"  src="Images/mesmall.jpg"/>
+					<div>
+						</br>
+						<p style=" font-size:20px;  ; padding-left:10%; padding-right:3%;">
+							My name is John Milligan and I am a graduate from Rochester Institute of Technology. 
+							I obtained my Bachelors of Science Degree in the fields of Game Design and Development while minoring in Communications. 
+							I graduated with the honor of summa cum laude. 
+							I am very interested in both designing games and 3D animation. 
+							I am constantly learning new skills to help expand my knowledge in game industry. 
+							I enjoy being in the company of others and I make a good team member. 
+							I am a hard worker and like to be positive. 
+							If you want to reach out to me my contact information is:
+						</p>
+					
+						<p style=" font-size:22px;  ">
+							<a href="mailto:JohnMilligan.Work@gmail.com" style="color:#378fc8;">Email: JohnMilligan.Work@gmail.com</a>
+							</br>
+							Cell: (315) 430-4646
+						</p>
+					</div>
+					
+				</div>
+				
+				<div class="bottomLayerDiv">	
+				</div>
+				
 			</section>
 			
 	<!-- Footer -->		
