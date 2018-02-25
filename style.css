@@ -1,6 +1,7 @@
 body{
 background-color: white;
 height: auto;
+width:100%;
 }
 
 .wrapper {
@@ -440,8 +441,6 @@ footer div{
 @media (max-width:800px) {
 	.wrapper {	
 		width: 100%;
-		margin-right: auto;
-		margin-left: auto;
 	}
 	
 	
@@ -549,17 +548,20 @@ footer div{
 		width: 99%;
 	}
 	footer{
+		width:100%;
 		padding-top:10px;
 		overflow:auto;
 		height: auto;
 	}
 	footer div{
 
-	float:left;
-	padding-left:5px;
+	float:none;
+	clear:right;
+	margin-left: auto;
+	margin-right: auto;
 	font-size: 16px;
 	
-}
+	}
 	
 }
 
