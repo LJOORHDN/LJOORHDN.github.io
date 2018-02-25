@@ -2,6 +2,7 @@ body{
 background-color: white;
 height: auto;
 width:100%;
+margin 0 0 0 0;
 }
 
 .wrapper {
@@ -257,12 +258,12 @@ a{
 }
 
 .topLayerDiv{
-
+	width: 99%;
 	height: 80px;
 	background-color: #378fc8;
 }
 .middleLayer{
-	
+	width: 99%;
 	height: 80px;
 	
 	background-color: #378fc8;
@@ -465,20 +466,27 @@ footer div{
 		height: 100%;
 		margin: 0px 0px 0px 0px;
 		overflow: hidden;
+		width:92%;
 	}
 	#dballDiv{		
 		height: 100%;
 		margin: 0px 0px 0px 0px;
 		overflow: hidden;
+		width:92%;
 	}
 	#onlyDiv{		
 		height: 100%;
-		margin: 0px 0px 0px 0px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left:0px;
+		padding-right: 0px;
 		overflow: hidden;
+		width:92%;
+		
 	}
 	
 	#bottomLayerP{
-		width:94%;
+		width:100%;
 		font-size: 20px;
 	}
     
@@ -487,21 +495,21 @@ footer div{
 		margin-right: auto;
 		margin-left: auto;
 		clear: both;
-		width:94%;
+		width:100%;
 	}
 	#dballDiv img{
 		float: none;
 		margin-right: auto;
 		margin-left: auto;
 		clear: both;
-		width:94%;
+		width:100%;
 	}
 	#onlyDiv img{
 		float: none;
 		margin-right: auto;
 		margin-left: auto;
 		clear: both;
-		width:94%;
+		width:100%;
 	}
 	
 	#DemoReel{
@@ -543,6 +551,7 @@ footer div{
 		margin-right:auto;
 	
 	}
+	
 	.bottomLayerDiv{
 		
 		width: 99%;
@@ -555,11 +564,8 @@ footer div{
 	}
 	footer div{
 
-	float:none;
-	clear:right;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 16px;
+	
+	
 	
 	}
 	
