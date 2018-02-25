@@ -464,13 +464,19 @@ footer div{
 	
 	#kinectDiv{		
 		height: 100%;
-		margin: 0px 0px 0px 0px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left:0px;
+		padding-right: 0px;
 		overflow: hidden;
 		width:92%;
 	}
 	#dballDiv{		
 		height: 100%;
-		margin: 0px 0px 0px 0px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left:0px;
+		padding-right: 0px;
 		overflow: hidden;
 		width:92%;
 	}
@@ -561,11 +567,14 @@ footer div{
 		padding-top:10px;
 		overflow:auto;
 		height: auto;
+		text-align:center;
 	}
 	footer div{
-
-	
-	
+		float:left;
+		padding-left:10px;
+		margin-left:auto;
+		margin-right:auto;
+		
 	
 	}
 	
