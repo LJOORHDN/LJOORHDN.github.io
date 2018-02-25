@@ -5,8 +5,8 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<meta charset="utf-8" />
 		<title>John Milligan</title>
-		<meta name="viewport" content="width=device-width, minimumscale=1.0, maximum-scale=1.0" />
-		
+		<!-- <meta name="viewport" content="width=device-width, minimumscale=1.0, maximum-scale=1.0" /> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	</head>
 	
@@ -17,7 +17,7 @@
 			<header>
 				<h1 id="JohnTitle">JOHN MILLIGAN</h1>
 				<h1 id="GameDesAin">Game Designer & Animator</h1>
-				
+				<!--
 				<nav>
 					<ul>	
 						<li><a href="Animations.html" class="current">animations</a></li>
@@ -26,7 +26,7 @@
 						<li><a href="AboutMe.html">about me</a></li>
 					</ul>
 				</nav>
-			
+			-->
 			</header>
 			
 	<!--Section 		
@@ -68,14 +68,14 @@
 					
 				
 				<div class="bottomLayer">
-					<div id="kinectDiv" style=" height:425px; padding-left: 4%; padding-right: 4%">
+					<div id="kinectDiv">
 						<br/>
 						
 						<h3 style="color:#378fc8; float: left; clear: both;">Kinect Air Guitar:</h3></br>
 					
-						<img src="Images/guitarGameSquare.jpg" style="clear: both; float:left; padding-right:20px;"/>
+						<img src="Images/guitarGameSquare.jpg" />
 						</br></br>
-						<p style="width:52%; float: left; font-size:22px;  ;">
+						<p id="bottomLayerP">
 							This prototype game played off the fun idea of playing an air guitar. 
 							Using the Microsoft Kinect device and Unity’s engine, I coded a music rhythm game where you can rock out with an air guitar. 
 							The game tracks the player’s body and overlays it with a guitar on screen. 
@@ -89,14 +89,14 @@
 				</div>
 				
 				<div class="bottomLayer">
-					<div id="dballDiv" style=" height:410px; padding-left: 4%; padding-right: 4%">
+					<div id="dballDiv">
 						<br/>
 						
 						<h3 style="color:#378fc8; float: left; clear: both;">Xtreme Dodgeball:</h3></br>
 						
-						<img src="Images/dballSquare.jpg" style="float:left; padding-right:20px; clear:both;"/>
+						<img src="Images/dballSquare.jpg" />
 						</br></br>
-						<p style="width:52%; float: left; font-size:22px;">
+						<p id="bottomLayerP">
 							Using their iPhones, players compete against waves of dodgeball teams in Xtreme Dodgeball. 
 							Using the iPhone’s gyroscope players tilt their phones to dodge incoming balls thrown by the opposing team. 
 							After picking up a ball they can swipe at their screen to throw the ball across the court. 
@@ -116,12 +116,12 @@
 				
 				<div class="bottomLayer">
 					
-						<div id="onlyDiv" style=" height:585px; padding-left: 4%; padding-right: 4%">
+						<div id="onlyDiv">
 						<br/>
-						<h3 style="color:#378fc8; float: left; clear: both;">Only Human</h3></br>
-						<img src="Images/cardSmall.jpg" style="float:left; padding-right:20px; clear:both;"/>
+						<h3 style="color:#378fc8; float: left; clear: both;">Only Human:</h3></br>
+						<img src="Images/cardSmall.jpg" />
 						</br></br></br>
-						<p style="width:52%; float: left; font-size:22px;  ">
+						<p id="bottomLayerP">
 							In the distant future, the last remnants of humanity have been forced to flee the Earth as the planet has been destroyed. 
 							As the commander of one of the last remaining faction fleets, the future of the human race lies in your hands. 
 							Manage your resources and build your fleet up to protect yourself from other factions who are doing the same. 
@@ -150,9 +150,10 @@
 						<a href="JohnMMilliganResume.pdf" target="_blank" style="color:#378fc8;padding-top:30px;">PDF File</a></br><br/>
 					</div>
 					<div class="JMMResume">
-						<object data="JohnMMilliganResume.pdf" type="application/pdf" width="90%" height="1025px">
+						<img id="resumeID" src="Images/JohnMMilliganResume.png"/>
+					<!--	<object data="JohnMMilliganResume.pdf" type="application/pdf" width="90%" height: "1015px;">
 							<embed src="JohnMMilliganResume.pdf" type="application/pdf" />
-						</object>
+						</object>   -->
 					</div>
 					
 				</div>
@@ -170,29 +171,33 @@
 					</div>	
 				</div>
 				
-				<div class="bottomLayer" style="height:390px;">
+				<div class="bottomLayer" >
 					</br>
-					<img style="float:left; margin-left:3%; margin-right:20px;padding-top:15px"  src="Images/mesmall.jpg"/>
-					<div>
+					<div id="aboutMeID" >
+						
+						
+						<div id="aboutMeInfo">
+							
+							<p style=" font-size:20px;">
+								My name is John Milligan and I am a graduate from Rochester Institute of Technology. 
+								I obtained my Bachelors of Science Degree in the fields of Game Design and Development while minoring in Communications. 
+								I graduated with the honor of summa cum laude. 
+								I am very interested in both designing games and 3D animation. 
+								I am constantly learning new skills to help expand my knowledge in game industry. 
+								I enjoy being in the company of others and I make a good team member. 
+								I am a hard worker and like to be positive. 
+								If you want to reach out to me my contact information is:
+							</p>
+						
+							<p style=" font-size:22px;">
+								<a href="mailto:JohnMilligan.Work@gmail.com" style="color:#378fc8;">Email: JohnMilligan.Work@gmail.com</a>
+								</br>
+								Cell: (315) 430-4646
+							</p>
+						</div>
 						</br>
-						<p style=" font-size:20px;  ; padding-left:10%; padding-right:3%;">
-							My name is John Milligan and I am a graduate from Rochester Institute of Technology. 
-							I obtained my Bachelors of Science Degree in the fields of Game Design and Development while minoring in Communications. 
-							I graduated with the honor of summa cum laude. 
-							I am very interested in both designing games and 3D animation. 
-							I am constantly learning new skills to help expand my knowledge in game industry. 
-							I enjoy being in the company of others and I make a good team member. 
-							I am a hard worker and like to be positive. 
-							If you want to reach out to me my contact information is:
-						</p>
-					
-						<p style=" font-size:22px;  ">
-							<a href="mailto:JohnMilligan.Work@gmail.com" style="color:#378fc8;">Email: JohnMilligan.Work@gmail.com</a>
-							</br>
-							Cell: (315) 430-4646
-						</p>
+						<img src="Images/mesmall.jpg"/>
 					</div>
-					
 				</div>
 				
 				<div class="bottomLayerDiv">	
@@ -202,7 +207,11 @@
 			
 	<!-- Footer -->		
 			<footer>	
-				<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>College:</strong> <em>RIT</em> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Major:</strong> <em>Game Design and Development</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Email:</strong> <em>johnmilligan.work@gmail.com</em> </div>
+				<div>
+					<div><strong>College:</strong> <em>RIT</em> </div>
+					<div><strong>Major:</strong>   <em>Game Design and Development</em></div>
+					<div><strong>Email:</strong>   <em>johnmilligan.work@gmail.com</em> </div>
+				</div>
 			</footer>
 		
 		</div>

@@ -1,9 +1,10 @@
 body{
 background-color: white;
+height: auto;
 }
 
 .wrapper {
-	
+	height: auto;
 	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
@@ -283,6 +284,72 @@ a{
 }
 
 
+#kinectDiv{
+	height:425px; 
+	padding-left: 4%; 
+	padding-right: 4%;
+}
+#dballDiv{
+	height:425px; 
+	padding-left: 4%; 
+	padding-right: 4%;
+}
+#onlyDiv{
+	height:585px; 
+	padding-left: 4%; 
+	padding-right: 4%;
+}
+
+#aboutMeID{
+	width: 100%;
+	overflow: auto;
+	
+	
+}
+#aboutMeInfo{
+	float:left;
+	width: 50%;
+	margin-left:4%;
+	margin-right:2%;
+	
+}
+#aboutMeID img{
+	float:right;
+	clear:none;
+	margin-left:1%;
+	margin-right:5%;
+	
+}
+
+
+
+#bottomLayerP{
+	width:52%; 
+	float: left; 
+	font-size:22px;
+}
+.bottomLayer img{
+	float:left; 
+	padding-right:20px; 
+	clear:both;
+}
+#resumeID{
+	float:none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+object{
+	height: 1015px;
+}
+
+
+
+.JMMResume{
+	overflow:auto;
+}
+
 .bottomLayerHome{
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -353,14 +420,108 @@ footer{
 	
 }
 footer div{
-	width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left:60px;
+
+	float:left;
+	padding-left:45px;
 	
 }
 
 
+@media (max-width:800px) {
+	.wrapper {	
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	
+	
+	header{
+		padding-left:30px;
+		padding-top: 10px;
+		padding-bottom: 16px;
+		margin-top: -20px;
+		margin-left: -10px;
+		width: 100%;
+	}
+	
+	.myInfo{
+		width: 99%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0px;
+	}
+	
+	#kinectDiv{		
+		height: 100%;
+		margin: 0px 0px 0px 0px;
+		overflow: auto;
+	}
+	#dballDiv{		
+		height: 100%;
+		margin: 0px 0px 0px 0px;
+		overflow: auto;
+	}
+	#onlyDiv{		
+		height: 100%;
+		margin: 0px 0px 0px 0px;
+		overflow: auto;
+	}
+	
+	#bottomLayerP{
+		width: 100%;
+	}
+    
+	.bottomLayer img{
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		clear: both;
+	}
+	#DemoReel{
+		overflow: auto;
+	}
+	iframe{
+		width:94%;
+		height: 400px;
+	}
+	#resumeID{
+		width:92%;
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		clear: both;
+	}
+	#aboutMeID{
+	width: 90%;
+	overflow: auto;
+	}
+	#aboutMeInfo{
+		float:none;
+		width: 98%;
+		margin-left:auto;
+		margin-right:auto;
+		clear:both;
+		
+	}
+	#aboutMeID img{
+		float:none;
+		clear:both;
+		margin-left:auto;
+		margin-right:auto;
+		
+	}
+	.bottomLayerDiv{
+		background-color:green;
+		width: 99%;
+	}
+	footer{
+		padding-top:10px;
+		overflow:auto;
+		height: auto;
+	}
+	
+}
 
 
 
