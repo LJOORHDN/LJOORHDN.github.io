@@ -302,7 +302,7 @@ a{
 
 #aboutMeID{
 	width: 100%;
-	overflow: auto;
+	overflow: hidden;
 	
 	
 }
@@ -328,7 +328,17 @@ a{
 	float: left; 
 	font-size:22px;
 }
-.bottomLayer img{
+#kinectDiv img{
+	float:left; 
+	padding-right:20px; 
+	clear:both;
+}
+#dballDiv img{
+	float:left; 
+	padding-right:20px; 
+	clear:both;
+}
+#onlyDiv img{
 	float:left; 
 	padding-right:20px; 
 	clear:both;
@@ -437,7 +447,7 @@ footer div{
 	
 	
 	header{
-		padding-left:30px;
+		padding-left:10px;
 		padding-top: 10px;
 		padding-bottom: 16px;
 		margin-top: -20px;
@@ -455,29 +465,46 @@ footer div{
 	#kinectDiv{		
 		height: 100%;
 		margin: 0px 0px 0px 0px;
-		overflow: auto;
+		overflow: hidden;
 	}
 	#dballDiv{		
 		height: 100%;
 		margin: 0px 0px 0px 0px;
-		overflow: auto;
+		overflow: hidden;
 	}
 	#onlyDiv{		
 		height: 100%;
 		margin: 0px 0px 0px 0px;
-		overflow: auto;
+		overflow: hidden;
 	}
 	
 	#bottomLayerP{
-		width: 100%;
+		width:94%;
+		font-size: 20px;
 	}
     
-	.bottomLayer img{
+	#kinectDiv img{
 		float: none;
 		margin-right: auto;
 		margin-left: auto;
 		clear: both;
+		width:94%;
 	}
+	#dballDiv img{
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		clear: both;
+		width:94%;
+	}
+	#onlyDiv img{
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		clear: both;
+		width:94%;
+	}
+	
 	#DemoReel{
 		overflow: auto;
 	}
@@ -487,32 +514,38 @@ footer div{
 	}
 	#resumeID{
 		width:92%;
-		float: none;
-		margin-right: auto;
-		margin-left: auto;
+	}
+	#resumeID img{
+		float: right;
+		
 		clear: both;
+		overflow:hidden;
 	}
 	#aboutMeID{
-	width: 90%;
+	width: 100%;
 	overflow: auto;
 	}
 	#aboutMeInfo{
 		float:none;
-		width: 98%;
+		width: 92%;
 		margin-left:auto;
 		margin-right:auto;
 		clear:both;
 		
+		
+	}
+	#aboutMeInfo a{
+		font-size: 16px;
 	}
 	#aboutMeID img{
 		float:none;
 		clear:both;
 		margin-left:auto;
 		margin-right:auto;
-		
+	
 	}
 	.bottomLayerDiv{
-		background-color:green;
+		
 		width: 99%;
 	}
 	footer{
@@ -520,6 +553,13 @@ footer div{
 		overflow:auto;
 		height: auto;
 	}
+	footer div{
+
+	float:left;
+	padding-left:5px;
+	font-size: 16px;
+	
+}
 	
 }
 
